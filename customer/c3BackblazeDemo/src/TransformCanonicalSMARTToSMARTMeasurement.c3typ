@@ -1,0 +1,10 @@
+type TransformCanonicalSMARTToSMARTMeasurement transforms CanonicalSMART {
+  
+  date:             datetime expression 'date'
+  serialNumber:     string expression 'serial_number'
+  model:            string expression 'model'
+  capacity:         int expression 'capacity_bytes'
+  failure:          int expression 'failure'
+  smart1Normalized: int expression 'smart_1_normalized'
+  smart1Raw:        int expression 'smart_1_raw'
+}
