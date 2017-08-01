@@ -1,0 +1,10 @@
+type CanonicalSMART {
+  
+  date:               datetime
+  serial_number:      string
+  model:              string
+  capacity_bytes:     int
+  failure:            int
+  smart_1_normalized: int
+  smart_1_raw:        int
+}
