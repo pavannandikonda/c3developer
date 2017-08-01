@@ -1,0 +1,10 @@
+type SMARTMeasurement {
+  
+  date:             datetime
+  serialNumber:     string
+  model:            string
+  capacity:         int
+  failure:          int
+  smart1Normalized: int
+  smart1Raw:        int
+}
